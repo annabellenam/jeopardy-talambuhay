@@ -6,26 +6,29 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'What are the names of these two? (left to right)',
+        imgSrc: 'https://m.media-amazon.com/images/M/MV5BYWM0NDM5OGUtMDA4ZC00OWNhLWI4NjctNWJkZDM4ODc4MzU1XkEyXkFqcGc@._V1_.jpg',
+        answer: 'Red and Yellow',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'What is the pigs name in minecraft story mode that dies',
+        imgSrc: "https://i.ytimg.com/vi/z4Vx_lUSkLs/maxresdefault.jpg",
+        answer: 'Reuben',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What is the name of the island on the bottom?',
+        imgSrc: 'https://thumbs.dreamstime.com/b/south-korea-map-outline-vector-illustration-south-korea-map-outline-vector-illustration-isolated-white-background-125666007.jpg',
+        answer: 'Jeju',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What year of the winter olympic did this mascot originate from?',
+        imgSrc: "https://i.ytimg.com/vi/YtWnQaOrT5Y/maxresdefault.jpg",
+        answer: '2018',
     }
 ]);
 
@@ -34,40 +37,37 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'What breed of dog is this?',
+            imgSrc: 'https://i.postimg.cc/dt3CNdw2/IMG-8905.jpg',
+            answer: 'Shih tzu',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'What is one of wingstop\'s most popular flavor?',
+            answer: 'Hot honey rub',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What figurine is this?',
+            imgSrc: 'https://m.media-amazon.com/images/I/517yOWsdJHL.jpg',
+            answer: 'Smiski',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
+                'Which ski mountain is this? (in Utah)',
             imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                "https://www.snowbird.com/_gatsby/image/af030026b947428decbbdd5318186c97/d298c4ee68d00d31120f71f9492913f4/snowbird_trailmap_winter_2425.webp?u=https%3A%2F%2Fcms.snowbird.com%2Fsites%2Fdefault%2Ffiles%2F2024-11%2Fsnowbird_trailmap_winter_2425.jpg&a=w%3D960%26h%3D1159%26fm%3Dwebp%26q%3D100&cd=d59ecdae071431f32661109b31e7af82",
+            answer: 'Snow bird',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'Which city used to be called New Amsterdam?',
+        answer: 'New York',
     }
 ]);
 

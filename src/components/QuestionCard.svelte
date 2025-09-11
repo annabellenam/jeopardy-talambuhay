@@ -205,14 +205,14 @@
 		left: 0;
 		width: 100vw;
 		height: 100vh;
-		background: rgba(0, 0, 0, 0.9);
+		background: rgba(250, 232, 242, 0.9);
 		display: grid;
 		place-items: center;
 	}
 
 	.modal-content {
-		background: var(--theme-color);
-		color: white;
+		background: #ffb6c1;
+		color: black;
 		padding: 2rem;
 		border-radius: 10px;
 		max-width: 800px;
@@ -229,7 +229,7 @@
 
 	.buzz-button {
 		background: var(--point-color);
-		color: #000;
+		color: black;
 		padding: 1rem 2rem;
 		border: none;
 		border-radius: 5px;

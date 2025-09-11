@@ -23,11 +23,11 @@
 	.players-widget button {
 		background: transparent;
 		border: none;
-		color: var(--point-color);
+		color: black;
 		cursor: pointer;
 	}
 	.players-widget {
-		color: white;
+		color: black;
         opacity: 0.8;
 		position: fixed;
 		right: 1rem;
