@@ -151,10 +151,10 @@
 	@import url('https://fonts.cdnfonts.com/css/itc-korinna-std');
 
 	:root {
-		--theme-color:rgb(239, 252, 194);
-		--point-color: goldenrod;
+		--theme-color:rgb(255, 243, 208);
+		--point-color: rgb(207, 91, 114);
 		font-family: 'ITC_ Korinna', sans-serif;
-		background-color: #35435c;
+		background-color: #103446;
 	}
 
 	:global(input) {
