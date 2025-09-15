@@ -38,7 +38,7 @@ const presentQuestions: Question[] =
             points: 200,
             question:
                 'What breed of dog is this?',
-            imgSrc: 'https://i.postimg.cc/dt3CNdw2/IMG-8905.jpg',
+            imgSrc: 'file:///Users/anna/Downloads/IMG_8905%20(1).JPG',
             answer: 'Shih tzu',
         },
         {
@@ -68,8 +68,15 @@ const futureQuestions: Question[] = sortQuestions([
         question:
             'Which city used to be called New Amsterdam?',
         answer: 'New York',
+    },
+    {
+        points: 200,
+        question:
+            'When was skydiving invented?',
+        answer: '1797',
     }
 ]);
+
 
 
 const categories = [
