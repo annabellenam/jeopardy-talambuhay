@@ -38,7 +38,7 @@ const presentQuestions: Question[] =
             points: 200,
             question:
                 'What breed of dog is this?',
-            imgSrc: 'file:///Users/anna/Downloads/IMG_8905%20(1).JPG',
+            imgSrc: '/dog.png',
             answer: 'Shih tzu',
         },
         {
